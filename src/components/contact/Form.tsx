@@ -62,10 +62,7 @@ export const Form = () => {
             className={`text-white`} 
             onClick={handleSubmit}>Submit</button>
 
-          <ReCAPTCHA
-          sitekey="6LdjoLAjAAAAAD9XkeYjV_U0TlAHLQTusHK2Qs_8"
-          // onChange={onChange}
-          />
+         
             
     </form>
     </div>
