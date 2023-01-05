@@ -13,7 +13,7 @@ export const Nav = ({ darkMode, setDarkMode,color, blackOrWhite }: NavProps) => 
   return (
     <>
     <nav className="py-10 mb-12 flex justify-between dark:text-white">
-    <a href='rodbromberg.me' className={`text-xl text-white-600`}>rodbromberg.me</a>
+    <a href='#' className={`text-xl text-white-600`}>rodbromberg.me</a>
     <ul className="flex items-center">
       <li className={`flex`}>
        {/* <BsFillMoonStarsFill
