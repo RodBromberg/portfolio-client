@@ -16,16 +16,12 @@ export const Nav = ({ darkMode, setDarkMode,color, blackOrWhite }: NavProps) => 
     <a href='#' className={`text-xl text-white-600`}>rodbromberg.me</a>
     <ul className="flex items-center">
       <li className={`flex`}>
-       {/* <BsFillMoonStarsFill
-          onClick={() => setDarkMode(!darkMode)}
-          className={`cursor-pointer text-2xl ${darkMode ? 'text-black' : null}`}
-        />  */}
       </li>
       <li>
         <a 
           target='_blank'
           className={`bg-gradient-to-r from-blue-900 text- to-blue-800 px-4 py-2 border-none rounded-md ml-8`}
-          href="https://resume.creddle.io/resume/aib94t4uc26">
+          href="https://resume.creddle.io/embed/aib94t4uc26">
           Resume
         </a>
       </li>
