@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { BsLinkedin,BsMailbox, BsMailbox2  } from 'react-icons/bs'
 import pinterreach from './images/pinterreach.png'
 import './App.css'
-import { Box } from './components/Box'
 import { Nav } from './components/navigation/Nav'
 
 import myImage from './images/myImage.png'
@@ -10,8 +9,9 @@ import scrapyard from './images/scraptest.png'
 import pinter from './images/firstRep.png'
 import friender from './images/friender.png'
 import firstRep from './images/pinter.png'
+import joseLema from './images/jose-lema.png'
+import dualNBack from './images/dual-n-back.png'
 import { Project } from './components/portfolio-pieces/Project'
-import { Form } from './components/contact/Form'
 
 
 function App() {
@@ -83,15 +83,17 @@ function App() {
           </p>
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">    
-          <Project src={pinter} />
-          <Project src={friender} />
-          <Project src={firstRep} />
-          <Project src={scrapyard} />
-        </div>
+  <Project src={pinter} />
+  <Project src={friender} />
+  <Project src={joseLema} />
+  <Project src={scrapyard} />
+  <Project src={firstRep} />
+  <Project src={dualNBack} />
+</div>
       </section>
       <section className={`mb-10`}>
-        <h2 className={`text-${color} text-2xl mb-4`}>Contact</h2>
-        <Form />
+        {/* <h2 className={`text-${color} text-2xl mb-4`}>Contact</h2> */}
+        {/* <Form /> */}
       </section>
 
     </main>

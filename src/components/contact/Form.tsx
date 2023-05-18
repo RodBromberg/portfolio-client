@@ -10,9 +10,7 @@ export const Form = () => {
     const [name,setName] = useState('')
     const [phone,setPhone] = useState('')
     const [message,setMessage] = useState('')
-    // const captchaRef: any = useRef(null)
-    
-    // const url = 'http://localhost:8080/text'
+   
     const url = `https://portfolio-server-production-8c09.up.railway.app/text`
 
 
@@ -60,12 +58,7 @@ export const Form = () => {
       } else {
         invalidNumber()
       }
-
-      // captchaRef.current.reset()
     }
-
-    // console.log('key here', process.env.VITE_REACT_APP_SITE_KEY)
-    // const token = captchaRef.current.getValue()
 
   return (
     <div className=''>
