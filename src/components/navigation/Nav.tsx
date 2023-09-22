@@ -9,7 +9,7 @@ interface NavProps {
 }
 
 // test
-export const Nav = ({ darkMode, setDarkMode,color, }: NavProps) => {
+export const Nav = ({ darkMode, setDarkMode,color,  }: NavProps) => {
   return (
     <>
     <nav className="py-10 mb-12 flex justify-between dark:text-white">
