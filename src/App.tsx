@@ -64,7 +64,7 @@ function App() {
       <section>
           <h3 className={`text-4xl py-1 ${white}`}>About</h3>
         <div>
-          <p className={`text-lg py-2 leading-8 white`}>
+          <p style={{ color: 'white !important' }}  className={`text-lg py-2 leading-8 white custom`}>
             Hi there, my name is Rod! Thanks for taking the time to visit my website. I have experience working remotely,
             but am also open to hybrid and onsite positions. Please feel free to contact me. 
             I've provided a link to my Linkedin, and Email above. If you would prefer to send me a text message 
