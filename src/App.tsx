@@ -17,7 +17,7 @@ import { Project } from './components/portfolio-pieces/Project'
 function App() {
   const [darkMode,setDarkMode] = useState(false)
   const [color,setColor] = useState('white')
-  const blackOrWhite = darkMode ? "dark" : "dark:text-white"
+  const white = darkMode ? "dark" : "dark:text-white"
 
   return (
     <div>
@@ -32,7 +32,7 @@ function App() {
         color={color}
         darkMode={darkMode} 
         setDarkMode={()=>setDarkMode(!darkMode)} 
-        blackOrWhite={blackOrWhite}
+        // white={white}
         />
         <div className="text-center py-10">
           <h2 className={`text-5xl py-2 text-white font-medium dark:text-${color}-400 md:text-6xl`}>
@@ -62,9 +62,9 @@ function App() {
         </div>
       </section>
       <section>
-          <h3 className={`text-4xl py-1 ${blackOrWhite}`}>About</h3>
+          <h3 className={`text-4xl py-1 ${white}`}>About</h3>
         <div>
-          <p className={`text-lg py-2 leading-8 ${blackOrWhite}`}>
+          <p className={`text-lg py-2 leading-8 ${white}`}>
             Hi there, my name is Rod! Thanks for taking the time to visit my website. I have experience working remotely,
             but am also open to hybrid and onsite positions. Please feel free to contact me. 
             I've provided a link to my Linkedin, and Email above. If you would prefer to send me a text message 
@@ -74,11 +74,11 @@ function App() {
       </section>
       <section className="py-10">
         <div>
-          <h3 className={`text-4xl py-1 ${blackOrWhite}`}>Portfolio</h3>
-          <p className={`text-md py-2 leading-8 ${blackOrWhite}`}>
+          <h3 className={`text-4xl py-1 ${white}`}>Portfolio</h3>
+          <p className={`text-md py-2 leading-8 ${white}`}>
             
           </p>
-          <p className={`text-md py-2 leading-8 text-gray-800 ${blackOrWhite}`}>
+          <p className={`text-md py-2 leading-8 text-gray-800 ${white}`}>
           
           </p>
         </div>
