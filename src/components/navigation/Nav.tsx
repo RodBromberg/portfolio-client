@@ -8,7 +8,7 @@ interface NavProps {
     blackOrWhite: string
 }
 
-
+// test
 export const Nav = ({ darkMode, setDarkMode,color, blackOrWhite }: NavProps) => {
   return (
     <>
